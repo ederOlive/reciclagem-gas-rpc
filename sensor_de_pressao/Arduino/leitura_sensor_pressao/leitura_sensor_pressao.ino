@@ -6,7 +6,7 @@
 #define HSCDDRN060MD2A5
 //#define
 
-#define RESULT_DECIMALS 5
+#define RESULT_DECIMALS 4
 
 // example differential sensor
 #ifdef HSCDDRN060MD2A5
@@ -18,7 +18,8 @@ const float HSC_PRESSURE_MAX = 60;
 #endif
 
 uint32_t previousPost = 0;
-const uint32_t postInterval = 1000;
+//const uint32_t postInterval = 1000;
+const uint32_t postInterval = 500; // tempo (ms) entre medidas
 
 void setup()
 {

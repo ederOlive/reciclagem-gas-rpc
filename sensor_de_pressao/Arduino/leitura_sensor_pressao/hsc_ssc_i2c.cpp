@@ -1,3 +1,4 @@
+// https://github.com/teemune/honeywell-hsc/tree/master
 /*
   GNU GPLv3 license:
   

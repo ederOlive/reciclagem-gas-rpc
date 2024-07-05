@@ -1,3 +1,4 @@
+//https://github.com/teemune/honeywell-hsc/tree/master
 #ifndef __hsc_ssc_i2c_h_
 #define __hsc_ssc_i2c_h_
 
