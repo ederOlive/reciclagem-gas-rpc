@@ -8,5 +8,5 @@ BAUD_RATE=9600
 stty -F $SERIAL_DEVICE $BAUD_RATE
 
 # Read from the serial device and plot using ttyplot
-cat $SERIAL_DEVICE | ttyplot -t "Serial Data Plot" -u "units"
+cat $SERIAL_DEVICE | ttyplot -t "Sensor de pressão HSCDDRN060MD2A5 (Honeywell)" -u "mbar"
 
